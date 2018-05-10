@@ -1,6 +1,6 @@
 package nl.codebase.faceter.forms.definition.model.transform;
 
-import nl.codebase.faceter.common.Transformer;
+import nl.codebase.entities.common.Transformer;
 import nl.codebase.faceter.forms.definition.model.FormElement;
 import nl.codebase.faceter.forms.definition.model.TextAreaFormElement;
 import nl.codebasesoftware.faceter.generated.GeneratedTextAreaFormElement;

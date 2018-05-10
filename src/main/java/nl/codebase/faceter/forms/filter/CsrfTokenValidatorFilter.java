@@ -11,8 +11,8 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Optional;
 
-import static nl.codebase.faceter.common.FaceterConstants.CSRF_COOKIE_NAME;
-import static nl.codebase.faceter.common.FaceterConstants.CSRF_HEADER_NAME;
+import static nl.codebase.entities.common.FaceterConstants.CSRF_COOKIE_NAME;
+import static nl.codebase.entities.common.FaceterConstants.CSRF_HEADER_NAME;
 
 @Slf4j
 public class CsrfTokenValidatorFilter extends OncePerRequestFilter {

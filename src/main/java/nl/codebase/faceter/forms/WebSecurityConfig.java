@@ -1,6 +1,6 @@
 package nl.codebase.faceter.forms;
 
-import nl.codebase.faceter.common.CsrfTokenResponseFilter;
+import nl.codebase.entities.common.CsrfTokenResponseFilter;
 import nl.codebase.faceter.forms.filter.TokenMoverFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

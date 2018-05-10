@@ -1,6 +1,6 @@
 package nl.codebase.faceter.forms.definition.model.transform;
 
-import nl.codebase.faceter.common.DateUtil;
+import nl.codebase.entities.common.DateUtil;
 import nl.codebase.faceter.forms.definition.model.Validation;
 import nl.codebase.faceter.forms.definition.model.ValidationGroup;
 import nl.codebase.faceter.forms.definition.model.ValidationType;

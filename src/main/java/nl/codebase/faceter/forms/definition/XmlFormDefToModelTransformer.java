@@ -1,6 +1,6 @@
 package nl.codebase.faceter.forms.definition;
 
-import nl.codebase.faceter.common.Transformer;
+import nl.codebase.entities.common.Transformer;
 import nl.codebase.faceter.forms.definition.model.FieldSet;
 import nl.codebase.faceter.forms.definition.model.FormDefinition;
 import nl.codebase.faceter.forms.definition.model.FormElement;

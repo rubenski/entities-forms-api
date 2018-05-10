@@ -46,8 +46,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>nl.codebase.faceter</groupId>
-			<artifactId>common</artifactId>
+			<groupId>nl.codebase.entities</groupId>
+			<artifactId>entities-common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
