@@ -1,7 +1,7 @@
 package nl.codebase.faceter.forms;
 
 import lombok.extern.slf4j.Slf4j;
-import nl.codebase.faceter.forms.filter.CsrfTokenValidatorFilter;
+import nl.codebase.entities.common.filter.CsrfTokenValidatorFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

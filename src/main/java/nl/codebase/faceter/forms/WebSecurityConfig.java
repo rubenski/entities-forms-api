@@ -1,7 +1,7 @@
 package nl.codebase.faceter.forms;
 
-import nl.codebase.entities.common.CsrfTokenResponseFilter;
-import nl.codebase.faceter.forms.filter.TokenMoverFilter;
+import nl.codebase.entities.common.filter.CsrfTokenResponseFilter;
+import nl.codebase.entities.common.filter.TokenFromCookieToHeaderFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -81,7 +81,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     public FilterRegistrationBean tokenMoverFilter() {
         FilterRegistrationBean registrationBean = new FilterRegistrationBean();
-        TokenMoverFilter tokenMoverFilter = new TokenMoverFilter();
+        TokenFromCookieToHeaderFilter tokenMoverFilter = new TokenFromCookieToHeaderFilter();
         registrationBean.setFilter(tokenMoverFilter);
         // DO NOT TOUCH THE ORDER OF THIS FILTER. TOKEN MUST BE MOVED TO HEADER BEFORE THE SPRING SECURITY CHAIN STARTS.
         registrationBean.setOrder(-100);
