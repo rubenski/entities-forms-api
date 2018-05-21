@@ -20,7 +20,7 @@ public class FormDefinitionController {
     }
 
     @RequestMapping(value = "/definition/{id}", method = RequestMethod.GET)
-    @PreAuthorize("hasAuthority('ADMIN_USER') or hasAuthority('STANDARD_USER')")
+    @PreAuthorize("hasAuthority('ADMIN_USER') or hasAuthority('COMPANY_USER')")
     public FormDefinition formDefinition(@PathVariable("id") String formId) throws FormsServiceException {
         return formDefinitionService.findById(formId);
     }
